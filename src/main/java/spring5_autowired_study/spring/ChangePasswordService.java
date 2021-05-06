@@ -20,7 +20,6 @@ public class ChangePasswordService {
 			throw new MemberNotFoundException();
 		}	
 		member.changePassword(oldPwd, newPwd);
-		
 		memberDao.update(member);
 	}
 
