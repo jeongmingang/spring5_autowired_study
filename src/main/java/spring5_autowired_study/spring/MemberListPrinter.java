@@ -28,8 +28,8 @@ public class MemberListPrinter {
 	}
 
 	@Autowired
-	public void setPrinter(MemberPrinter printer) {
-		this.printer = printer;
+	public void setPrinter(MemberPrinter memberPrinter) {
+		this.printer = memberPrinter;
 	}
 }
 
